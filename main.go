@@ -40,7 +40,7 @@ func (repo *Repository) Create(consignment *pb.Consignment) (*pb.Consignment, er
 // we defined in our protobuf definition. You can check the interface
 // in the generated code itself for the exact method signatures etc
 // to give you a better idea.
-type services struct {
+type service struct {
 	repo repository
 }
 
